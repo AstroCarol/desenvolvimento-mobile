@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ddm.tads.ifrn.br.triangulo.MainActivity"
+    android:stretchColumns="*"
+    android:id="@+id/tableLayout">
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tableRow1">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/base" />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editBase"
+            android:inputType="number"
+            android:focusable="true"
+            android:longClickable="true"
+            android:editable="true"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tableRow2">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/altura"/>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editAltura"
+            android:inputType="number"
+            android:focusable="true"
+            android:longClickable="true"
+            android:editable="true"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tableRow3">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/calcular"
+            android:id="@+id/btnCalcular"
+            android:layout_span="2"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tableRow4">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/area"/>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editArea"
+            android:inputType="number"
+            android:focusable="false"
+            android:longClickable="false"
+            android:editable="false"/>
+    </TableRow>
+
+</TableLayout>
