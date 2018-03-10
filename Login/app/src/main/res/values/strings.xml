@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Login</string>
+    <string name="login">Login</string>
+    <string name="senha">Senha</string>
+    <string name="autenticado">Você está autenticado!</string>
+    <string name="erro">Insira um login e senha válidos</string>
+</resources>
