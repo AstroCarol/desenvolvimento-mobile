@@ -7,5 +7,22 @@
     android:layout_height="match_parent"
     tools:context="br.edu.ifrn.tads.movies.imckotlin.ResultadoActivity">
 
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Seu IMC: "/>
 
+        <TextView
+            android:id="@+id/textViewIMC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textViewSituacaoIMC"/>
+    </LinearLayout>
 </RelativeLayout>

@@ -8,11 +8,15 @@ class ResultadoActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_resultado)
-        val imc = intent.getStringExtra("IMC").toDouble()
+        val imc = intent.getStringExtra("imc").toDouble()
     }
 
-    //private fun SituacaoIMC(imc : Double) : String{
-        //return if(imc < 18.5)
-            //""
-    //}
+    private fun SituacaoIMC(imc : Double) : String {
+        if (imc < 18.5)
+            return "Abaixo do peso "
+        else if (imc < 24.5)
+            return "Peso normal "
+        else
+            return "Obesidade "
+    }
 }

@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
         val peso = editPeso.text.toString().toDouble()
         val imc = (peso / (altura * altura)).toString()
         val intent = Intent(this, ResultadoActivity::class.java)
-        intent.putExtra("IMC", imc)
+        intent.putExtra("imc", imc)
         startActivity(intent)
     }
 }
