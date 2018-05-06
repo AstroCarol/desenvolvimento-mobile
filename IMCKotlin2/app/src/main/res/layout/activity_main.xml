@@ -5,7 +5,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="br.edu.ifrn.tads.movies.imckotlin.MainActivity">
+    tools:context="br.edu.ifrn.tads.movies.imckotlin.MainActivity"
+    android:background="@drawable/wallpaper_app">
 
     <EditText
         android:id="@+id/editPeso"
@@ -15,6 +16,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="31dp"
         android:ems="10"
+        android:drawableLeft="@drawable/ic_action_weight"
         android:hint="Peso"
         android:inputType="numberDecimal"/>
 
@@ -27,6 +29,7 @@
         android:layout_below="@+id/editPeso"
         android:layout_marginTop="31dp"
         android:ems="10"
+        android:drawableLeft="@drawable/ic_action_height"
         android:hint="Altura"
         android:inputType="numberDecimal"/>
 

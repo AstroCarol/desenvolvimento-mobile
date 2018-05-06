@@ -3,9 +3,11 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/IMCKotlin2.iml" filepath="$PROJECT_DIR$/IMCKotlin2.iml" />
+      <module fileurl="file://C:\Users\Astro Carol\Documents\desenvolvimento-mobile\IMCKotlin2\IMCKotlin2.iml" filepath="C:\Users\Astro Carol\Documents\desenvolvimento-mobile\IMCKotlin2\IMCKotlin2.iml" />
       <module fileurl="file://C:\Users\Tatiara\Desktop\desenvolvimento-mobile\IMCKotlin2\IMCKotlin2.iml" filepath="C:\Users\Tatiara\Desktop\desenvolvimento-mobile\IMCKotlin2\IMCKotlin2.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://C:\Users\Tatiara\Desktop\desenvolvimento-mobile\IMCKotlin2\app\app.iml" filepath="C:\Users\Tatiara\Desktop\desenvolvimento-mobile\IMCKotlin2\app\app.iml" />
+      <module fileurl="file://C:\Users\Astro Carol\Documents\desenvolvimento-mobile\IMCKotlin2\app\app.iml" filepath="C:\Users\Astro Carol\Documents\desenvolvimento-mobile\IMCKotlin2\app\app.iml" />
     </modules>
   </component>
 </project>

@@ -5,24 +5,32 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="br.edu.ifrn.tads.movies.imckotlin.ResultadoActivity">
+    tools:context="br.edu.ifrn.tads.movies.imckotlin.ResultadoActivity"
+    android:background="@drawable/wallpaper_app">
 
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Seu IMC: "/>
+            android:text="Seu IMC: "
+            android:textColor="#ffffff"
+            android:textSize="30sp" />
 
         <TextView
             android:id="@+id/textViewIMC"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:textSize="30sp"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/textViewSituacaoIMC"/>
+            android:id="@+id/textViewSituacaoIMC"
+            android:textSize="30sp"
+            android:textColor="#ffffff"/>
     </LinearLayout>
 </RelativeLayout>
